@@ -11,13 +11,18 @@ I am a security engineer passionate about cybersecurity, penetration testing, an
 
 ## Blog Posts
 
-- **How to Harden Your Linux Server** - March 1, 2025  
+### **How to Harden Your Linux Server (ﾉಥ益ಥ)ﾉ** 
+- March 1, 2025
+  
+[Read post](./posts/welcome.md).
 * * *
 
-- **Top 10 OWASP Web Vulnerabilities** - February 20, 2025
+- **Remote Code Execution in Xerox** - February 20, 2025
+[Read post](./posts/welcome.md).
 * * *
 
-- **First post.(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Welcome to my Blog** - February 10, 2025
+- **First post. Welcome to my Blog** - February 10, 2025
+[Read post](./posts/welcome.md).
 * * *
 
 ```
