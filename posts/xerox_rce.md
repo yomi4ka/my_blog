@@ -1,7 +1,6 @@
 ---
-title: "Inside Xerox WorkCentre: Two Unauthenticated RCEs"
-date: "2025-03-11"
-description: "A closer look at how two serious vulnerabilities in Xerox WorkCentre printers could put organizations at risk."
+date: 2025-02-10
+layout: post
 ---
 
 # Inside Xerox WorkCentre: Two Unauthenticated RCEs  
