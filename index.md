@@ -11,18 +11,18 @@ layout: default
 
 ## Blog Posts
 
-### **How to Harden Your Linux Server (ﾉಥ益ಥ)ﾉ** 
+### **How to Harden Your Linux Server ** 
 - March 1, 2025
   
 [Read post](./posts/welcome.md).
 * * *
 
-## **Remote Code Execution in Xerox** 
+## **Remote Code Execution in Xerox (ﾉಥ益ಥ)ﾉ** 
 - February 20, 2025
 [Read post](./posts/xerox_rce.md).
 * * *
 
-## **First post. Welcome to my Blog**
+## **First post. Welcome to my Blog ☆ｏ(＞＜；)○**
 - February 10, 2025
 [Read post](./posts/welcome.md).
 * * *
