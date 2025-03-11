@@ -15,16 +15,19 @@ layout: default
 - March 1, 2025
   
 [Read post](./posts/welcome.md).
+
 * * *
 
 ## **Remote Code Execution in Xerox (ﾉಥ益ಥ)ﾉ** 
 - February 20, 2025
 [Read post](./posts/xerox_rce.md).
+
 * * *
 
 ## **First post. Welcome to my Blog ☆ｏ(＞＜；)○**
 - February 10, 2025
 [Read post](./posts/welcome.md).
+
 * * *
 
 <!-- FLAG{90301b43aa389dfea1c127797877ba6bede72964} -->
