@@ -5,7 +5,7 @@ description: "A closer look at how two serious vulnerabilities in Xerox WorkCent
 ---
 
 # Inside Xerox WorkCentre: Two Unauthenticated RCEs  
-![Xerox WorkCentre Vulnerability](https://swarm.ptsecurity.com/wp-content/uploads/2024/06/f43178ab-xerox-preview-3.png)  
+![Xerox WorkCentre Vulnerability](../static/xerox.png)  
 
 ## What Happened?  
 Imagine this: a regular office printer sitting quietly in the corner, just waiting for someone to exploit it. Sounds unlikely, right? Well, researchers recently found **two unauthenticated Remote Code Execution (RCE) vulnerabilities** in **Xerox WorkCentre** printers. That means attackers could **run any command on these printers remotely**—without needing a password. Not great news if you're using one of these devices in your office.  
