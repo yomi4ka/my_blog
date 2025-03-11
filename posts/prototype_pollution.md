@@ -2,6 +2,7 @@
 title: "Prototype Pollution: When JavaScript Objects Get Too Friendly!"
 date: 2025-03-11
 layout: post
+author: Cyber Bimbo
 ---
 ![image](../static/prototype-pollution-infographic.svg)
 
