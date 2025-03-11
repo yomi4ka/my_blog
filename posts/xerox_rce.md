@@ -1,42 +1,41 @@
 ---
 date: 2025-02-20
 layout: post
-title_included: false
+title: Inside Xerox WorkCentre: Two Unauthenticated RCEs
 ---
 
-# Inside Xerox WorkCentre: Two Unauthenticated RCEs  
-![Xerox WorkCentre Vulnerability](../static/xerox.png)  
+![Xerox WorkCentre Vulnerability](../static/xerox.png)
 
-## What Happened?  
-Imagine this: a regular office printer sitting quietly in the corner, just waiting for someone to exploit it. Sounds unlikely, right? Well, researchers recently found **two unauthenticated Remote Code Execution (RCE) vulnerabilities** in **Xerox WorkCentre** printers. That means attackers could **run any command on these printers remotely**—without needing a password. Not great news if you're using one of these devices in your office.  
+## What’s the Tea? 
+Okay besties, imagine your office printer just sitting there, looking all innocent… but plot twist: it’s totally vulnerable to hackers. Yeah, you heard me right. Security researchers just found **two unauthenticated Remote Code Execution (RCE) vulnerabilities** in **Xerox WorkCentre** printers. Basically, someone could just waltz in and take over your printer—no password needed. That is *not* the kind of open access we like!
 
-## The Vulnerabilities: What Went Wrong?  
+## The Vulnerabilities: What Went Wrong? 
 
-### 1. The `configrui.php` Exploit
-- **What’s the issue?** Poor input validation in `configrui.php` allows attackers to inject malicious commands through the `param` field.  
-- **How does it work?** An attacker can send a **crafted HTTP POST request** to `/support/remoteUI/configrui.php`, which then executes the injected command.  
+### 1. The `configrui.php` Drama
+- **The Issue?** This little PHP file doesn’t check inputs properly, so hackers can sneak in malicious commands. 
+- **How?** They just send a **crafted HTTP POST request** to `/support/remoteUI/configrui.php` and boom—instant printer takeover. Like, seriously? No validation at all? 
 
-### 2. Preprocessor Directive Injection
-- **What’s the issue?** Some PHP files in the firmware don’t handle preprocessor directives securely, opening the door for attackers to sneak in their own code.  
-- **How does it work?** Malicious requests can exploit these preprocessor directives to execute commands remotely before the PHP script even runs properly.  
+### 2. Preprocessor Directive Injection—Messy!
+- **The Issue?** Some PHP files in the firmware handle preprocessor directives like a bad relationship: *no boundaries*.
+- **How?** Hackers send a sneaky request, and before the script even fully loads, **their commands are already running**. That’s like handing over your phone unlocked and hoping for the best. 
 
-## Why This Matters  
-- **Who's affected?** Xerox WorkCentre printers running outdated firmware (pre-2016 patch).  
-- **How bad is it?** **Critical.** Attackers can:
-  - Gain full control over the printer.
-  - Access sensitive scanned documents.
-  - Use the printer as a foothold to attack other internal systems.  
+## Why You Should Care 
+- **Who’s at risk?** Anyone with a Xerox WorkCentre that hasn’t been updated since, like, 2016. Yikes.
+- **How bad is it?** **Super bad.** Hackers can:
+  - Fully control the printer.
+  - Snatch up sensitive scanned docs.
+  - Use the printer as a launching pad to hack other devices. 
 
-## What You Should Do  
-- **Update Firmware** – Check for the latest firmware from Xerox and install it ASAP.  
-- **Restrict Access** – Limit who can reach the printer’s web interface using network rules.  
-- **Monitor Traffic** – Keep an eye on logs for suspicious activity.  
-- **Segment Your Network** – Don’t let your printers sit on the same network as sensitive systems.  
+## How to Keep Your Printer Secure & Cute 
+- **Update Firmware** – Like, *immediately*. Don’t be that person who ignores updates. 
+- **Restrict Access** – Only let the *right* people reach the printer’s web interface.
+- **Monitor Traffic** – Keep an eye on logs, just like you keep an eye on your DMs. 
+- **Segment Your Network** – Don’t let your printer chill on the same network as your *actually* important systems. 
 
-## Final Thoughts  
-Printers aren’t just dumb paper machines anymore—they’re fully networked computers, and they **need proper security** like any other device. If you have a Xerox WorkCentre in your environment, take these vulnerabilities seriously and patch them now before someone else finds them first.  
+## Final Thoughts 
+Printers aren’t just paper-spewing dinosaurs anymore—they’re fully networked computers, and they **need real security**. If your office has a Xerox WorkCentre, fix this mess now before some hacker decides to have fun at your expense.
 
----  
+---
 
 *References:*  
-- [Raphaël Rigo, 2020](https://airbus-seclab.github.io/xerox/INFILTRATE2020-RIGO-Xerox-final.pdf)  
+- [Raphaël Rigo, 2020](https://airbus-seclab.github.io/xerox/INFILTRATE2020-RIGO-Xerox-final.pdf)
