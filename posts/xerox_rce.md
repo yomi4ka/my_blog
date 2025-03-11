@@ -2,6 +2,7 @@
 date: 2025-02-20
 layout: post
 title: "Inside Xerox WorkCentre: Two Unauthenticated RCEs"
+author: Cyber Bimbo
 ---
 
 ![Xerox WorkCentre Vulnerability](../static/xerox.png)
