@@ -1,9 +1,10 @@
 ---
 date: 2025-03-01
 layout: post
+title: "AWS IAM Privilege Escalation: Oopsie, Your Policies Are a Mess!"
+author: Cyber Bimbo
 ---
 
-# AWS IAM Privilege Escalation: Oopsie, Your Policies Are a Mess!
 ![image](../static/aws.webp)
 
 So, like, AWS IAM (Identity and Access Management) is supposed to keep things locked down, but sometimes, those policies are a *hot mess*, letting attackers go from "barely-there" access to full-blown admin. Yikes!
