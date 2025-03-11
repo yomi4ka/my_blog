@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside Xerox WorkCentre: Two Unauthenticated RCEs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .content {
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .reference {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Inside Xerox WorkCentre: Two Unauthenticated RCEs</h1>
+        <img src="../static/xerox.png" alt="Xerox WorkCentre Vulnerability">
+        
+        <h2>What Happened?</h2>
+        <p>Imagine this: a regular office printer sitting quietly in the corner, just waiting for someone to exploit it. Sounds unlikely, right? Well, researchers recently found <strong>two unauthenticated Remote Code Execution (RCE) vulnerabilities</strong> in <strong>Xerox WorkCentre</strong> printers. That means attackers could <strong>run any command on these printers remotely</strong>—without needing a password. Not great news if you're using one of these devices in your office.</p>
+        
+        <h2>The Vulnerabilities: What Went Wrong?</h2>
+        <h3>1. The <code>configrui.php</code> Exploit</h3>
+        <ul>
+            <li><strong>What’s the issue?</strong> Poor input validation in <code>configrui.php</code> allows attackers to inject malicious commands through the <code>param</code> field.</li>
+            <li><strong>How does it work?</strong> An attacker can send a <strong>crafted HTTP POST request</strong> to <code>/support/remoteUI/configrui.php</code>, which then executes the injected command.</li>
+        </ul>
+        
+        <h3>2. Preprocessor Directive Injection</h3>
+        <ul>
+            <li><strong>What’s the issue?</strong> Some PHP files in the firmware don’t handle preprocessor directives securely, opening the door for attackers to sneak in their own code.</li>
+            <li><strong>How does it work?</strong> Malicious requests can exploit these preprocessor directives to execute commands remotely before the PHP script even runs properly.</li>
+        </ul>
+        
+        <h2>Why This Matters</h2>
+        <ul>
+            <li><strong>Who's affected?</strong> Xerox WorkCentre printers running outdated firmware (pre-2016 patch).</li>
+            <li><strong>How bad is it?</strong> <strong>Critical.</strong> Attackers can:
+                <ul>
+                    <li>Gain full control over the printer.</li>
+                    <li>Access sensitive scanned documents.</li>
+                    <li>Use the printer as a foothold to attack other internal systems.</li>
+                </ul>
+            </li>
+        </ul>
+        
+        <h2>What You Should Do</h2>
+        <ul>
+            <li><strong>Update Firmware</strong> – Check for the latest firmware from Xerox and install it ASAP.</li>
+            <li><strong>Restrict Access</strong> – Limit who can reach the printer’s web interface using network rules.</li>
+            <li><strong>Monitor Traffic</strong> – Keep an eye on logs for suspicious activity.</li>
+            <li><strong>Segment Your Network</strong> – Don’t let your printers sit on the same network as sensitive systems.</li>
+        </ul>
+        
+        <h2>Final Thoughts</h2>
+        <p>Printers aren’t just dumb paper machines anymore—they’re fully networked computers, and they <strong>need proper security</strong> like any other device. If you have a Xerox WorkCentre in your environment, take these vulnerabilities seriously and patch them now before someone else finds them first.</p>
+        
+        <hr>
+        <p class="reference"><strong>References:</strong><br>
+        <a href="https://swarm.ptsecurity.com/inside-xerox-workcentre-two-unauthenticated-rces/" target="_blank">Inside Xerox WorkCentre: Two Unauthenticated RCEs</a></p>
+    </div>
+</body>
+</html>
