@@ -18,13 +18,11 @@ I am a security engineer passionate about cybersecurity, penetration testing, an
 * * *
 
 - **Remote Code Execution in Xerox** - February 20, 2025
-[Read post](./posts/welcome.md).
+[Read post](./posts/xerox_rce.md).
 * * *
 
 - **First post. Welcome to my Blog** - February 10, 2025
 [Read post](./posts/welcome.md).
 * * *
 
-```
-FLAG{90301b43aa389dfea1c127797877ba6bede72964}
-```
+<!-- FLAG{90301b43aa389dfea1c127797877ba6bede72964} -->
