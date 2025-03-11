@@ -4,10 +4,10 @@ description: "Insights, tutorials, and news on cybersecurity."
 layout: default
 ---
 
-# Security Engineer Blog
+# Cyber Bimbo's Blog
 
 ## About Me
-I am a security engineer passionate about cybersecurity, penetration testing, and system hardening. This blog serves as a platform to share insights, tutorials, and the latest trends in cybersecurity.
+  I am a security engineer passionate about cybersecurity, penetration testing, and system hardening. This blog serves as a platform to share insights, tutorials, and the latest trends in cybersecurity.
 
 ## Blog Posts
 
@@ -17,11 +17,13 @@ I am a security engineer passionate about cybersecurity, penetration testing, an
 [Read post](./posts/welcome.md).
 * * *
 
-- **Remote Code Execution in Xerox** - February 20, 2025
+## **Remote Code Execution in Xerox** 
+- February 20, 2025
 [Read post](./posts/xerox_rce.md).
 * * *
 
-- **First post. Welcome to my Blog** - February 10, 2025
+## **First post. Welcome to my Blog**
+- February 10, 2025
 [Read post](./posts/welcome.md).
 * * *
 
