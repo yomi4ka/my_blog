@@ -1,6 +1,6 @@
 ---
 title: "VIM: Surviving the Most Confusing Text Editor Ever"
-date: 2025-03-11
+date: 2025-03-08
 layout: post
 ---
 
