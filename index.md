@@ -20,6 +20,13 @@ For collabs and cyber chats, email me at `adalovespizza@gmail.com`! 💌💻
 
 * * *
 
+## **Surviving VIM ╮(￣ω￣;)╭** 
+- March 8, 2025
+  
+[Read post](./posts/vim.md).
+
+* * *
+
 ## **AWS IAM Privilege Escalation (・人・)** 
 - March 1, 2025
   
