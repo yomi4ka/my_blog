@@ -1,9 +1,9 @@
 ---
 date: 2025-02-10
 layout: post
+author: Cyber Bimbo
+title: "Welcome to My Cyber Glam World 💖"
 ---
-
-# Welcome to My Cyber Glam World 💖
 
 Hey darlings! 💅✨ So, like, welcome to my little corner of the internet where firewalls meet fabulousness! You might think cybersecurity is all dark hoodies and green code on black screens, but honey, let me tell you—it's also glitter, glam, and being the smartest babe in the room. 
 
