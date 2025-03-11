@@ -53,7 +53,7 @@ VIM is like a toxic relationship—you struggle at first, but once you learn the
 
 - P.S. Sweeties, I've also started a personal live blog to share my glam pics and shopping hauls. The last thing I bought? This **fancy keyboard**—isn't she just STUNNING?! Look at this beautyyyyyyy!
    
-![image](https://64.media.tumblr.com/39f3b8ffccc1778799f7d4fd262ca992/3a168198182adda1-23/s1280x1920/9bf6d5f0c97edd01ab41de4d0075c0c84120c051.jpg)
+<img src="https://64.media.tumblr.com/39f3b8ffccc1778799f7d4fd262ca992/3a168198182adda1-23/s1280x1920/9bf6d5f0c97edd01ab41de4d0075c0c84120c051.jpg" width="500">
 
 XOXO, 
 Your Cyber Bimbo
