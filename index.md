@@ -13,7 +13,7 @@ For collabs and cyber chats, email me at `adalovespizza@gmail.com`! 💌💻
 
 ## My Posts
 
-## **JS and Prototype Pollution (〃￣ω￣〃ゞ ** 
+## **JS and Prototype Pollution (〃￣ω￣〃ゞ** 
 - March 11, 2025
   
 [Read post](./posts/prototype_pollution.md).
