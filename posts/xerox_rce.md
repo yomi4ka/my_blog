@@ -1,7 +1,7 @@
 ---
 date: 2025-02-20
 layout: post
-title_included: true
+title_included: false
 ---
 
 # Inside Xerox WorkCentre: Two Unauthenticated RCEs  
