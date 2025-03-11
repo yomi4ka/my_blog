@@ -5,17 +5,17 @@ layout: default
 ---
 
 # Cyber Bimbo's Blog
-![Xerox WorkCentre Vulnerability](../static/SKULL.gif)  
+![LOGO](./static/SKULL.gif)  
 
 ## About Me
 I’m your go-to cyber babe, obsessed with hacking (ethically, duh), locking down systems, and making the digital world just as flawless as my contour. This blog is where I spill all the cyber tea—tips, tricks, and the latest security drama—so you can stay secure and stylish.
 
-## Blog Posts
+## My Posts
 
 ### **How to Harden Your Linux Server (・人・)** 
 - March 1, 2025
   
-[Read post](./posts/welcome.md).
+  [Read post](./posts/aws.md).
 
 * * *
 
