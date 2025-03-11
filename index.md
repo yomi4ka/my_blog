@@ -9,8 +9,16 @@ layout: default
 
 ## About Me
 I’m your go-to cyber babe, obsessed with hacking (ethically, duh), locking down systems, and making the digital world just as flawless as my contour. This blog is where I spill all the cyber tea—tips, tricks, and the latest security drama—so you can stay secure and stylish.
+For collabs and cyber chats, email me at `adalovespizza@gmail.com`! 💌💻
 
 ## My Posts
+
+## **JS and Prototype Pollution (〃￣ω￣〃ゞ ** 
+- March 11, 2025
+  
+[Read post](./posts/prototype_pollution.md).
+
+* * *
 
 ## **AWS IAM Privilege Escalation (・人・)** 
 - March 1, 2025
