@@ -1,3 +1,9 @@
+---
+title: "Inside Xerox WorkCentre: Two Unauthenticated RCEs"
+date: "2025-03-11"
+description: "A closer look at how two serious vulnerabilities in Xerox WorkCentre printers could put organizations at risk."
+---
+
 # Inside Xerox WorkCentre: Two Unauthenticated RCEs  
 ![Xerox WorkCentre Vulnerability](https://swarm.ptsecurity.com/wp-content/uploads/2024/06/f43178ab-xerox-preview-3.png)  
 
