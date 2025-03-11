@@ -5,13 +5,14 @@ layout: default
 ---
 
 # Cyber Bimbo's Blog
+![Xerox WorkCentre Vulnerability](../static/SKULL.gif)  
 
 ## About Me
-  I am a security engineer passionate about cybersecurity, penetration testing, and system hardening. This blog serves as a platform to share insights, tutorials, and the latest trends in cybersecurity.
+I’m your go-to cyber babe, obsessed with hacking (ethically, duh), locking down systems, and making the digital world just as flawless as my contour. This blog is where I spill all the cyber tea—tips, tricks, and the latest security drama—so you can stay secure and stylish.
 
 ## Blog Posts
 
-### **How to Harden Your Linux Server ** 
+### **How to Harden Your Linux Server (・人・)** 
 - March 1, 2025
   
 [Read post](./posts/welcome.md).
@@ -20,12 +21,14 @@ layout: default
 
 ## **Remote Code Execution in Xerox (ﾉಥ益ಥ)ﾉ** 
 - February 20, 2025
+  
 [Read post](./posts/xerox_rce.md).
 
 * * *
 
 ## **First post. Welcome to my Blog ☆ｏ(＞＜；)○**
 - February 10, 2025
+  
 [Read post](./posts/welcome.md).
 
 * * *
