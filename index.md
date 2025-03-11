@@ -12,10 +12,10 @@ I’m your go-to cyber babe, obsessed with hacking (ethically, duh), locking dow
 
 ## My Posts
 
-### **How to Harden Your Linux Server (・人・)** 
+## **AWS IAM Privilege Escalation (・人・)** 
 - March 1, 2025
   
-  [Read post](./posts/aws.md).
+[Read post](./posts/aws.md).
 
 * * *
 
