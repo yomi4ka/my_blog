@@ -47,5 +47,5 @@ For collabs and cyber chats, email me at `adalovespizza@gmail.com`! 💌💻
 [Read post](./posts/welcome.md).
 
 * * *
-
+<!-- Hi! The first 3 CTF participants who find this flag can ask Margarita for a gift T-shirt. -->
 <!-- FLAG{90301b43aa389dfea1c127797877ba6bede72964} -->
